@@ -1,0 +1,104 @@
+body{
+    background-color: #8AAAE5;
+    margin: 50px 50px 0px 50px;
+    font-family: "Poppins", sans-serif;
+    color: white; 
+    height: 100%; 
+}
+
+.Head {
+    font-size: 5rem;
+    width: 70%;
+    margin: 10px 0px 10px 0px;
+}
+span{
+    color: rgb(10, 9, 9);
+}
+
+.img
+{
+    height: 300px;
+    width: 320px;
+    float: left;
+    margin-right: 50px;
+}
+.same
+{
+    width: 50%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.h2
+{
+    margin-top: 20px;
+    color: midnightblue;
+    font-size: 2rem;
+}
+.head1{
+    font-size: 1.5rem;
+    padding-right: 20px ;
+}
+
+.left
+{
+    float: left;
+}
+.right{
+    object-fit: cover;
+    float: right;
+}
+
+.left1{
+    object-fit: cover;
+    float: left;
+}
+
+.right1{
+    object-fit: cover;
+    float: right;
+}
+.right1{
+    object-fit: cover;
+    float: left;
+}
+
+@media (max-width:680px)
+{
+    h1 {
+        text-align: center;
+    }
+    .Head{
+        text-align: center;
+        width: 100%;
+        font-size: 3.5rem;
+    }
+    .same{
+        display: block;
+        /* margin-right: 100%;
+        margin-bottom: 100px; */
+        float: none;
+        margin-bottom: 300px;
+        width: 100%;
+    }
+
+    .head1{  
+        display: inline;
+        width: 100%;
+        padding-right: 0px;
+        font-size: 1.1rem;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    
+    .h2
+    {
+        font-size: 1.5rem;
+    }
+    .img
+    {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        float: none;
+    }
+}
